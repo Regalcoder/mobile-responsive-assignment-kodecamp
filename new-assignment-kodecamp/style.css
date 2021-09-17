@@ -16,14 +16,147 @@ gap: 1100px;
 background-color: white;
 }
 
-.hero-bg{
+.hero-container{
+    width: 91%;
+    height: 90vh;
+    display: flex; 
+    justify-content: start; 
+    align-items: flex-start;
+    color: white;
+    padding: 57px; 
+    background-image: url('./images/hero-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+   }
+
+/*.hero-bg{
     display: flex;
-    flex-direction:column
-}
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end; 
+} */
 
 .hero-image{
+    width: 70%;
+    display: flex;
+  }
+
+.text-flex{
+  padding-top: 120px; 
+  padding-right: 30px;
+  padding-bottom: 0;
+}
+
+.big-text{
+    font-size: 80px;
+    font-weight: 2;
+    padding-top: 0;
+    padding-bottom: 0rem;
+}
+
+.bold-text{
+    padding-top: 0;
+    margin: 0;
+    font-size: 100px;
+}
+
+.straight-line{
+    content: "";
     width: 100%;
-    height: 50em;
-  /*  background-size: cover; */
-    background-repeat: no-repeat;
+    height: 0.5rem;
+    background-color: white;
+  /*  font-weight: 80px; */
+}
+
+.svg-accessories{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding-top: 20px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 55vh;
+}
+
+.para-styling{
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 0rem;
+}
+
+.head-styling{
+    font-size: 50px;
+    padding-bottom: 0px;
+    padding-top: 0rem;
+}
+
+.para-styling-2{
+ font-size: 25px;
+ font-weight: 5px;
+ padding-top: 0;
+}
+
+.button-style{
+ background-color: tomato;
+ color: white;
+ border: none;
+ width: 120px;
+ height: 48px;
+padding: 10px; 
+}
+
+.container-3{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center; 
+}
+
+.handy-man1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+  /*  padding-right: 80px; */
+    width: 30%;
+}
+
+.handy-man-bg{
+     width: 30rem;
+     height: 20rem;
+}
+
+.handy-man-para{
+font-size: 18px;
+padding-top: 50px;
+padding-left: 40px;
+margin-right: 30px;
+width: 85%;
+}
+
+.handy-man2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+}
+
+.help-text{
+    font-size: 40px;
+}
+
+.call-text{
+  font-size: 35px;
+  color: red;
 }
